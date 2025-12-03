@@ -64,7 +64,7 @@ function clickedTreatButton() {
 
 function clickedPlayButton() {
   // Increase pet happiness
-  pet_info.happiness = parseInt(pet_info.happiness) + 3;
+  pet_info.happiness = pet_info.happiness + 3;
   // Decrease pet weight
   pet_info.weight = parseInt(pet_info.weight) - 1;
   //Decrease energy
